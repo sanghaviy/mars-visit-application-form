@@ -21,22 +21,26 @@ A multi-stage React + TypeScript form for aspiring Mars travelers. Built with Vi
 ```bash
 git clone https://github.com/sanghaviy/mars-visit-application-form.git
 cd mars-visit-application-form
-## 2. Install Dependencies
+##2. Install Dependencies
 
 npm install
-###3. Run the App Locally
+##3. Run the App Locally
 
 npm run dev
-Visit: http://localhost:5173
+Then open http://localhost:5173 in your browser.
 
- ##🌐 Deployment to GitHub Pages
+##🌐 Deployment to GitHub Pages
 ##1. Set the Correct base in vite.config.ts
 
 base: '/mars-visit-application-form/', // Repo name
 ##2. Build and Deploy
 
 npm run deploy
-app will be live at:
-
+application will be live at:
 
 https://sanghaviy.github.io/mars-visit-application-form
+##🧪 Run Unit Tests
+This project uses Jest for testing form validation logic.
+
+Run Tests:
+npm run test
